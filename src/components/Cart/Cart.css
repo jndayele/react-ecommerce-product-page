@@ -1,0 +1,30 @@
+.cart {
+  padding: 20px;
+}
+.cart h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.cart-item button {
+  padding: 5px 10px;
+  color: #fff;
+  background: #ff4d4d;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.cart-item button:hover {
+  background: #ff1a1a;
+}
